@@ -1,0 +1,6 @@
+wreg flash.keyr 0x45670123
+wreg flash.keyr 0xCDEF89AB
+
+wreg flash.cr 0x2
+wreg flash.ar 0x8000000
+wreg flash.cr 0x42
